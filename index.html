@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td {
+          border: 2px solid black;
+        }
+        table{ width: 750px}
+        </style>
+</head>
+<body style="background-color: bisque;">
+    <form action="">
+    <table style="background-color: rgb(29, 171, 184);">
+        <tr style="background-color: rgb(28, 140, 48);"><td colspan="2"><h1>Registration Form </h1></td></tr>
+        <tr>
+            <td><label for="fname">First name</label> </td>
+            <td><input type="text" id="fname" name="fname" value=""></td>
+        </tr>
+        <tr>
+            <td><label for="lname">Last name</label></td>
+            <td><input type="text" id="lname" name="lname" value=""></td>
+        </tr>
+        <tr>
+            <td><label for="uname">User name</label></td>
+            <td><input type="text" id="uname" name="uname" value=""></td>
+        </tr>
+        <tr>
+            <td><label for="password">password </label></td>
+            <td><input type="password" id="password" name="password "></td>
+        </tr>
+        <tr>
+            <td rowspan="2"><label for="gender" name="gender" >Gender </td>
+            <td><input type="radio" id="gender" name="gender">male</td>
+        </tr>
+        <tr>
+            <td ><input type="radio" id="gender" name="gender">female</td>
+        </tr>
+        <tr>
+            <td rowspan="3"><label for="course">course</label></td>
+            <td><input type="checkbox">Fullstack</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox">Frontend</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox">Backend</td>
+        </tr>
+        <tr>
+            <td><label for="e-mail">E-mail</label></td>
+            <td><input type="text" placeholder="XXXXXXXX@gmail.com"></td>
+        </tr>
+        <tr>
+            <td><label for="mobile" name="mobile">Mobile Phone</label></td>
+            <td><input type="text" placeholder="+20"></td>
+        </tr>
+        <tr>
+            <td rowspan="4"><label for="language" name="language">Language</label></td>  
+            <td><input type="checkbox" name="language">English</td>
+        </tr>
+        <tr><td><input type="checkbox" name="language">Frinch</td></tr>
+        <tr><td><input type="checkbox" name="language">German</td></tr>
+        <tr><td><input type="checkbox" name="language">Arabic</td></tr>
+        <tr>
+            <td><label for="date-of-birth" name="birth">Date of Birth</label></td>
+            <td><input type="date" name="birth"></td>
+        </tr>
+        <tr>
+            <td><label for="describtion">Describtion</label></td>
+            <td><textarea name="describtion" rows="10" cols="30">
+                The cat was playing in the garden.
+                </textarea></td>
+            
+        </tr>
+        <tr>
+            <td><button>done</button></td>
+            <td><button>Erase</button></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
